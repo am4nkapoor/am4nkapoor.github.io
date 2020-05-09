@@ -36,7 +36,7 @@ const work = props => (
             <div class="featured__FeaturedImg">
                <div class="custom"></div>
                <picture>
-                 <img alt="" src="/images/w-1.png" />
+                 <img alt="" src="/profile/images/w-1.png" />
                </picture> 
             </div>
           </div>
@@ -72,7 +72,7 @@ const work = props => (
             <div class="featured__FeaturedImg">
                 <div class="custom"></div>
                 <picture>
-                  <img alt="" src="/images/w-2.png" />
+                  <img alt="" src="/profile/images/w-2.png" />
                 </picture> 
             </div>
           </div>                     
@@ -109,7 +109,7 @@ const work = props => (
             <div class="featured__FeaturedImg">
                <div class="custom"></div>
                <picture>
-                 <img alt="" src="/images/w-3.png" />
+                 <img alt="" src="/profile/images/w-3.png" />
                </picture> 
             </div>
           </div>

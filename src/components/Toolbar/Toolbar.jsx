@@ -25,7 +25,7 @@ const toolbar = props => (
             <a href="#contact" class="header_NavLink">Contact</a>
           </li>
           <div>
-            <div class="fadedown-enter-done"><a href="/static/Aman_Resume(Front-End).pdf" target="_blank" rel="nofollow noopener noreferrer" class="header_ResumeLink">Resume</a></div>
+            <div class="fadedown-enter-done"><a href="/profile/static/Aman_Resume(Front-End).pdf" target="_blank" rel="nofollow noopener noreferrer" class="header_ResumeLink">Resume</a></div>
           </div>
         </ul>
       </div>
