@@ -26,7 +26,7 @@ const about = props => (
             <div className="about_Avatar">
               <div className="about_custom"></div>
               <picture>
-                <img src="profile/images/hero.jpg" alt="" />
+                <img src="/images/hero.jpg" alt="" />
               </picture>
             </div>
           </div>
