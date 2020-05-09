@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.35d0d515.chunk.js",
-    "main.js.map": "/static/js/main.35d0d515.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.06db5317.js",
-    "runtime-main.js.map": "/static/js/runtime-main.06db5317.js.map",
-    "static/js/2.422f0243.chunk.js": "/static/js/2.422f0243.chunk.js",
-    "static/js/2.422f0243.chunk.js.map": "/static/js/2.422f0243.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d4d56a3df922204c61ebdad5d6f04c2e.js": "/precache-manifest.d4d56a3df922204c61ebdad5d6f04c2e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.422f0243.chunk.js.LICENSE.txt": "/static/js/2.422f0243.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/am4nkapoor.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/am4nkapoor.github.io/static/js/main.dcdf8762.chunk.js",
+    "main.js.map": "/am4nkapoor.github.io/static/js/main.dcdf8762.chunk.js.map",
+    "runtime-main.js": "/am4nkapoor.github.io/static/js/runtime-main.2ac0b271.js",
+    "runtime-main.js.map": "/am4nkapoor.github.io/static/js/runtime-main.2ac0b271.js.map",
+    "static/js/2.422f0243.chunk.js": "/am4nkapoor.github.io/static/js/2.422f0243.chunk.js",
+    "static/js/2.422f0243.chunk.js.map": "/am4nkapoor.github.io/static/js/2.422f0243.chunk.js.map",
+    "index.html": "/am4nkapoor.github.io/index.html",
+    "precache-manifest.1310ef44ccc6a2f26b78e1db948d33e2.js": "/am4nkapoor.github.io/precache-manifest.1310ef44ccc6a2f26b78e1db948d33e2.js",
+    "service-worker.js": "/am4nkapoor.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/am4nkapoor.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.422f0243.chunk.js.LICENSE.txt": "/am4nkapoor.github.io/static/js/2.422f0243.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/am4nkapoor.github.io/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06db5317.js",
+    "static/js/runtime-main.2ac0b271.js",
     "static/js/2.422f0243.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.35d0d515.chunk.js"
+    "static/js/main.dcdf8762.chunk.js"
   ]
 }
