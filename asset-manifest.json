@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/am4nkapoor.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/am4nkapoor.github.io/static/js/main.dcdf8762.chunk.js",
-    "main.js.map": "/am4nkapoor.github.io/static/js/main.dcdf8762.chunk.js.map",
-    "runtime-main.js": "/am4nkapoor.github.io/static/js/runtime-main.2ac0b271.js",
-    "runtime-main.js.map": "/am4nkapoor.github.io/static/js/runtime-main.2ac0b271.js.map",
-    "static/js/2.422f0243.chunk.js": "/am4nkapoor.github.io/static/js/2.422f0243.chunk.js",
-    "static/js/2.422f0243.chunk.js.map": "/am4nkapoor.github.io/static/js/2.422f0243.chunk.js.map",
-    "index.html": "/am4nkapoor.github.io/index.html",
-    "precache-manifest.1310ef44ccc6a2f26b78e1db948d33e2.js": "/am4nkapoor.github.io/precache-manifest.1310ef44ccc6a2f26b78e1db948d33e2.js",
-    "service-worker.js": "/am4nkapoor.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/am4nkapoor.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.422f0243.chunk.js.LICENSE.txt": "/am4nkapoor.github.io/static/js/2.422f0243.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/am4nkapoor.github.io/static/media/logo.5d5d9eef.svg"
+    "main.css": "/https://am4nkapoor.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/https://am4nkapoor.github.io/static/js/main.31b74361.chunk.js",
+    "main.js.map": "/https://am4nkapoor.github.io/static/js/main.31b74361.chunk.js.map",
+    "runtime-main.js": "/https://am4nkapoor.github.io/static/js/runtime-main.d4121659.js",
+    "runtime-main.js.map": "/https://am4nkapoor.github.io/static/js/runtime-main.d4121659.js.map",
+    "static/js/2.422f0243.chunk.js": "/https://am4nkapoor.github.io/static/js/2.422f0243.chunk.js",
+    "static/js/2.422f0243.chunk.js.map": "/https://am4nkapoor.github.io/static/js/2.422f0243.chunk.js.map",
+    "index.html": "/https://am4nkapoor.github.io/index.html",
+    "precache-manifest.d45f0a982b82948ce65f50ff10da5e48.js": "/https://am4nkapoor.github.io/precache-manifest.d45f0a982b82948ce65f50ff10da5e48.js",
+    "service-worker.js": "/https://am4nkapoor.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/https://am4nkapoor.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.422f0243.chunk.js.LICENSE.txt": "/https://am4nkapoor.github.io/static/js/2.422f0243.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/https://am4nkapoor.github.io/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ac0b271.js",
+    "static/js/runtime-main.d4121659.js",
     "static/js/2.422f0243.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.dcdf8762.chunk.js"
+    "static/js/main.31b74361.chunk.js"
   ]
 }
