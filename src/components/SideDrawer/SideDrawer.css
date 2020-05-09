@@ -1,0 +1,84 @@
+.menu__Sidebar{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(24, 22, 32);
+    width: 50vw;
+    height: 100%;
+    position: relative;
+    right: 0px;
+    margin-left: auto;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    box-shadow: rgba(10, 25, 47, 0.7) -2px 0px 4px;
+}
+
+.side-drawer{
+    height: 100%;
+    background-color: rgb(16, 14, 23);;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu__ResumeLink{
+    color: rgb(27, 255, 255);
+    background-color: transparent;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    cursor: pointer;
+    width: max-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(27, 255, 255);
+    border-image: initial;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    padding: 18px 50px;
+    margin: 10% auto 0px;
+}
+
+.side-drawer ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-drawer li {
+    margin: 0.5rem 0;
+}
+
+.side-drawer a{
+    font-size: 1.2 rem;
+}
+
+.side-drawer.open{
+    transform: translateX(0);
+}
+
+@media (min-width: 769px){
+    .side-drawer{
+        display: none;
+    }
+}
+

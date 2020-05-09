@@ -1,0 +1,206 @@
+.Section-sc-projects{
+    max-width: 1000px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px auto;
+    padding: 150px 0px;
+  }
+  
+  .Heading-sc-projects{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+    margin: 10px 0px 40px;
+  }
+  
+  .Heading-sc-projects::before{
+    counter-increment: section1;
+    content: "0" counter(section1) ".";
+    margin-right: 10px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    color: rgb(27, 255, 255);
+    font-size: 20px;
+    bottom: 4px;
+  }
+  
+  .Heading-sc-projects::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 300px;
+    background-color: rgb(45, 57, 82);
+    top: -5px;
+    margin-left: 20px;
+  }
+  
+  .featured-grid{
+    position: relative;
+  }
+  
+  .featured-projects{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 10px;
+  }
+  
+  .featured-projects:nth-of-type(2n+1) .featured-ContentContainer{
+    text-align: right;
+    grid-column: 7 / -1;
+  }
+  
+  .featured-ContentContainer{
+    position: relative;
+    z-index: 2;
+    grid-column: 1 / 7;
+    grid-row: 1 / -1;
+  }
+  
+  .featured-FeaturedLabel{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(27, 255, 255);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    margin-top: 10px;
+    padding-top: 0px;
+  }
+  
+  .featured-ProjectName{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(233, 235, 246);
+    margin: 0px 0px 20px;
+  }
+  
+  .featured-ProjectDescription{
+    background-color: rgb(24, 22, 32);
+    color: rgb(232, 232, 244);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 3px;
+    font-size: 18px;
+    padding: 25px;
+    border-bottom: 1px solid rgb(32, 28, 41);
+    border-radius: 2px;
+  }
+  
+  .featured-projects:nth-of-type(2n+1) .featured-TechList{
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
+  
+  .featured-TechList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0px 10px;
+  }
+  
+  .featured-projects:nth-of-type(2n+1) .featured-TechList li{
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  
+  .featured-TechList li{
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 13px;
+    color: rgb(232, 232, 244);
+    margin-right: 20px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+  }
+  .featured-projects:nth-of-type(2n+1) .featured-Links{
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-right: -10px;
+  }
+  
+  .featured-Links{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  
+  .featured-Links a{
+    padding: 10px;
+  }
+  
+  .featured-Links a svg{
+    width: 22px;
+    height: 22px;
+  }
+  
+  .featured-projects:nth-of-type(2n+1) .featured-ImgContainer{
+    grid-column: 1 / 8;
+  }
+  
+  .featured-ImgContainer{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(27, 255, 255);
+    border-radius: 2px;
+    grid-column: 6 / -1;
+    grid-row: 1 / -1;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  
+  .featured-ImgContainer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+    background-color: rgb(16, 14, 23);
+    mix-blend-mode: screen;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  
+  .featured__FeaturedImg{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    position: relative;
+    mix-blend-mode: multiply;
+    border-radius: 2px;
+  }
+  
+  .featured__FeaturedImg picture img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
+  }
+  
+  .featured-ImgContainer:hover{
+    background: transparent;
+  }
+  
+  .custom{
+    width: 100%;
+    padding-bottom: 62.5%;
+  }
+  
+  .featured-projects:last-of-type {
+    margin-bottom: 0px;
+  }
