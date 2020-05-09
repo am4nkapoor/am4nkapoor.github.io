@@ -30,7 +30,7 @@ const sideDrawer = props => {
             <a href="#contact" class="menu_NavLink">Contact</a>
           </li>
         </ul>
-        <a href="profile/static/Aman_Resume(Front-End).pdf" target="_blank" rel="nofollow noopener noreferrer" class="menu__ResumeLink">Resume</a>
+        <a href="/static/Aman_Resume(Front-End).pdf" target="_blank" rel="nofollow noopener noreferrer" class="menu__ResumeLink">Resume</a>
       </nav>
     </div>
   )
